@@ -1,0 +1,135 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidattendancesystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:7:5-72:19
+12        android:name="com.android.attendance.context.ApplicationContext"
+12-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:8:10-74
+13        android:allowBackup="true"
+13-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:9:9-35
+14        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+14-->[com.android.support:support-compat:28.0.0] C:\Users\yuges\.gradle\caches\transforms-3\01abf3def00b528e5c29d1fd1eb1ef25\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:icon="@drawable/ic_launcher"
+17-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:10:9-45
+18        android:label="@string/app_name"
+18-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:11:9-41
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:12:9-40
+21        <activity
+21-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:13:9-22:20
+22            android:name="com.android.attendance.activity.MainActivity"
+22-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:14:13-72
+23            android:exported="true"
+23-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:15:13-36
+24            android:label="@string/app_name" >
+24-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:16:13-45
+25            <intent-filter>
+25-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:17:13-21:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:18:17-69
+26-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:18:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:20:17-77
+28-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:20:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:23:10-26:20
+32            android:name="com.android.attendance.activity.LoginActivity"
+32-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:24:13-73
+33            android:label="@string/app_name" >
+33-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:25:13-45
+34        </activity>
+35        <activity
+35-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:27:10-30:20
+36            android:name="com.android.attendance.activity.MenuActivity"
+36-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:28:13-72
+37            android:label="@string/app_name" >
+37-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:29:13-45
+38        </activity>
+39        <activity
+39-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:31:10-34:20
+40            android:name="com.android.attendance.activity.AddFacultyActivity"
+40-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:32:13-78
+41            android:label="@string/app_name" >
+41-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:33:13-45
+42        </activity>
+43        <activity
+43-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:35:9-38:20
+44            android:name="com.android.attendance.activity.AddStudentActivity"
+44-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:36:13-78
+45            android:label="@string/app_name" >
+45-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:37:13-45
+46        </activity>
+47        <activity
+47-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:39:9-42:20
+48            android:name="com.android.attendance.activity.ViewFacultyActivity"
+48-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:40:13-79
+49            android:label="@string/app_name" >
+49-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:41:13-45
+50        </activity>
+51        <activity
+51-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:43:9-46:20
+52            android:name="com.android.attendance.activity.ViewStudentActivity"
+52-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:44:13-79
+53            android:label="@string/app_name" >
+53-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:45:13-45
+54        </activity>
+55        <activity
+55-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:47:9-50:20
+56            android:name="com.android.attendance.activity.TestActivity"
+56-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:48:13-72
+57            android:label="@string/app_name" >
+57-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:49:13-45
+58        </activity>
+59        <activity
+59-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:51:10-54:20
+60            android:name="com.android.attendance.activity.ViewStudentByBranchYear"
+60-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:52:13-83
+61            android:label="@string/app_name" >
+61-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:53:13-45
+62        </activity>
+63        <activity
+63-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:55:11-58:20
+64            android:name="com.android.attendance.activity.AddAttandanceSessionActivity"
+64-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:56:13-88
+65            android:label="@string/app_name" >
+65-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:57:13-45
+66        </activity>
+67        <activity
+67-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:59:10-62:20
+68            android:name="com.android.attendance.activity.AddAttendanceActivity"
+68-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:60:13-81
+69            android:label="@string/app_name" >
+69-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:61:13-45
+70        </activity>
+71        <activity
+71-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:63:10-66:20
+72            android:name="com.android.attendance.activity.ViewAttendanceByFacultyActivity"
+72-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:64:13-91
+73            android:label="@string/app_name" >
+73-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:65:13-45
+74        </activity>
+75        <activity
+75-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:67:10-70:20
+76            android:name="com.android.attendance.activity.ViewAttendancePerStudentActivity"
+76-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:68:13-92
+77            android:label="@string/app_name" >
+77-->E:\FilmoraEditing4\PHP\oesv2\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:69:13-45
+78        </activity>
+79    </application>
+80
+81</manifest>
